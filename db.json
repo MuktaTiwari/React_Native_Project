@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Premium Headphones",
+      "price": 4999,
+      "image": "https://images.unsplash.com/photo-1585386959984-a4155223f6da?w=800",
+      "description": "Noise cancelling premium headphones."
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch Pro",
+      "price": 6999,
+      "image": "https://images.unsplash.com/photo-1517414204284-fb7e840f49be?w=800",
+      "description": "Fitness tracking smartwatch with AMOLED display."
+    },
+        {
+      "id": 2,
+      "name": "Smart Watch Pro",
+      "price": 6999,
+      "image": "https://images.unsplash.com/photo-1517414204284-fb7e840f49be?w=800",
+      "description": "Fitness tracking smartwatch with AMOLED display."
+    }
+  ]
+}
