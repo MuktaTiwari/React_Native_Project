@@ -31,13 +31,19 @@ export default function TabLayout() {
           ),
         }}
       />
-       <Tabs.Screen name="product" options={{headerShown:false,   tabBarIcon: ({ focused, color, size }) => (
+      <Tabs.Screen
+        name="product"
+        options={{
+          headerShown: false,
+          tabBarIcon: ({ focused, color, size }) => (
             <Ionicons
               name={focused ? "bag" : "bag-outline"}
               size={size}
               color={color}
             />
-          ),}}></Tabs.Screen>
+          ),
+        }}
+      ></Tabs.Screen>
       <Tabs.Screen
         name="setting"
         options={{
@@ -51,8 +57,6 @@ export default function TabLayout() {
           ),
         }}
       />
-
-     
     </Tabs>
   );
 }

@@ -15,7 +15,7 @@ export default function DrawerLayout() {
       }}
     >
       {" "}
-      <Drawer.Screen name="home" options={{ title: "Home" }} />{" "}
+      <Drawer.Screen name="home" options={{ title: "Home"}} />{" "}
       <Drawer.Screen name="orders" options={{ title: "Orders" }} />{" "}
       <Drawer.Screen name="profile" options={{ title: "Profile" }} />{" "}
     </Drawer>
